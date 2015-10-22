@@ -1,0 +1,36 @@
+{
+    "apiKey": "3D5DBEDC113B1A5688B192E65C8277C2" ,
+    "members" : [ 
+                    {
+                        "name" : "FYC",
+                        "steamID" : 76561198132019625,
+                        "position" : "一号位 SOLO"
+                    },
+                    {
+                        "name" : "GAZ",
+                        "steamID" : 76561198098383240,
+                        "position" : "一号位 三号位"
+                    },
+                    {
+                        "name" : "WCY",
+                        "steamID" : 76561198098326351,
+                        "position" : "三号位 辅助"
+                    },
+                    {
+                        "name" : "FLH",
+                        "steamID" : 76561198096339268,
+                        "position" : "三号位 辅助"
+                    },
+                    {
+                        "name" : "TDR",
+                        "steamID" : 76561198118200602,
+                        "position" : "辅助"
+                    },
+                    {
+                        "name" : "SZT",
+                        "steamID" : 76561198096543997,
+                        "position" : "SOLO 辅助"
+                    }
+                ]
+                
+}
