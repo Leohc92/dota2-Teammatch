@@ -14,6 +14,9 @@ BOT_NAME = 'dotabuff'
 SPIDER_MODULES = ['dotabuff.spiders']
 NEWSPIDER_MODULE = 'dotabuff.spiders'
 
+DOWNLOAD_HANDLERS = {
+    's3': None,
+}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'dotabuff (+http://www.yourdomain.com)'
@@ -62,9 +65,9 @@ COOKIES_ENABLED=False
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'dotabuff.pipelines.SomePipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'dotabuff.pipelines.DotabuffPipeline': 300
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
